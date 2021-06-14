@@ -1,0 +1,33 @@
+.button {
+  // display: inline-block;
+  position: relative;
+
+  border: none;
+  width: 290px;
+  height: 40px;
+  border-radius: 30px/30px;
+//   bottom: 80px;
+//   margin-left: auto;
+//   margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  font-size: 13px;
+  opacity: 0.8;
+
+
+  &.gray {
+    background-color: black;
+    color: white;
+    font-weight: 800;
+
+
+  }
+
+  &.white {
+      color: black;
+      background-color: white;
+
+  }
+}

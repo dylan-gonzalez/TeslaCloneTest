@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+
+    position: fixed;
+    // background-color: red;
+
+    bottom: 40px;
+    // right: 25vw;
+    // left: 25vw;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+    font-size: 12px;
+
+
+    & a {
+        // color: rgb(59, 54, 54); 
+        color: white;
+        text-decoration: none;
+    }
+}
